@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>LLM Code Correctness Benchmarking</title>
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<main id="main">
+
+<div id="portfolio-details" class="portfolio-details">
+<div class="container">
+
+<div class="row">
+<div class="col-lg-12 portfolio-info">
+
+<h2 style="color:#12d640">
+Code Correctness Benchmarking & Failure-Mode Analysis for LLMs
+</h2>
+
+<ul>
+<li><strong>Tech Stack:</strong> Python, OpenAI API, CodeLlama, Docker Sandbox, Statistical Evaluation</li>
+<li><strong>Research Area:</strong> Large Language Models, Software Engineering, Benchmarking</li>
+</ul>
+
+<p>
+Designed and implemented a stratified benchmark of 90 Python programming tasks
+to systematically evaluate the code-generation capabilities of modern large
+language models.
+</p>
+
+<p>
+Built an automated evaluation framework that executed 540 sandboxed test runs
+across GPT-3.5-Turbo and CodeLlama-7B-Instruct while measuring pass@1,
+pass@3, and bootstrap confidence intervals.
+</p>
+
+<p>
+Developed a four-category failure taxonomy (syntactic, runtime,
+algorithmic, and edge-case failures) that provided deeper insight into why
+models fail rather than simply reporting accuracy.
+</p>
+
+<p>
+The study showed that 90–100% of syntactic and runtime failures could be
+recovered through multi-sample aggregation, while algorithmic reasoning
+errors remained the primary challenge.
+</p>
+
+<p>
+  Here is the GitHub repository:
+  <a href="https://github.com/motolomygolda/code-correctness-benchmark" target="_blank">
+    Github Link
+  </a>
+</p>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</main>
+
+</body>
+</html>
